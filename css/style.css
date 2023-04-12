@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+
+:root{
+    --main-color: #222374;
+    --red-color: #F03C42;
+    --light-gray-color: #CCCCCC;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+}
+
+body{
+    margin: 0 auto;
+    width: 1500px;
+    border: 1px solid black;
+}
+
+header{
+    background-color: var(--red-color);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+* {
+    font-family: 'Opensans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+
+nav h1{
+    color: var(--white-color);
+    font-size: 18px;
+}
+
+nav a{
+    color: var(--white-color);
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.instagram-header{
+    display:flex;
+    align-items: center;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    
+}
+
+.main-space{
+    background-color: #222374;
+    height: 418px;
+
+}
+
+.main-space h2 {
+    font-size: 32px;
+    margin: 20px 723px 35px 0;
+    display: inline-block;
+    width: 380px;
+    color: var(--white-color);
+
+}
+
+.card-main-space{
+    background-color: var(--light-gray-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0px 25px 0px;
+}
+
+
+.card-main-space h3 {
+    margin-bottom: 20px ;
+    
+}
+
+
+.modalities{
+    width: 1200px;
+    height: 880px;
+    background-color: var(--white-color);
+}
+
+.modalities h2{
+    color: var(--red-color);
+    font-size: 32px;
+    margin: 20px 0px 40px 0px;
+
+}
+
+.card-modalities{
+    height: 106px;
+    width: 1200px;
+    background-color: var(--main-color);
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.card-modalities h3{
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+.card-modalities p{
+    color: var(--white-color);
+}
+
+footer{
+    height: 262px;
+    display: flex;
+    background-color: var(--black-color);
+}
+
+
+.footer-content{ 
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    /* border: 4px solid red;  */
+   
+}
+
+.social-footer{
+     margin-bottom: 10px;
+     /* border: 3px solid cyan;  */
+}
+
+.social{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 170px;
+    padding: 5px;
+    /* border: 1px solid goldenrod; */
+}
+
+
+
+.footer-content a{ 
+    text-decoration: none;
+    color: var(--white-color);
+    /* border: 2px solid yellowgreen;      */
+}
+
+
+.footer-text{
+    padding: 15px;
+    text-align: center;
+    color: var(--white-color);
+    
+}
+
+
+
